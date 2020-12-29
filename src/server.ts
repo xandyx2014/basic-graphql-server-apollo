@@ -15,4 +15,5 @@ const server = new ApolloServer({
 server.applyMiddleware({app});
 const httpServer = createServer(app);
 const PORT = 3000;
-httpServer.listen({port: PORT}, () => console.log(`Hola mundo desde api grapql http://localhost:${PORT}/graphql`));
+httpServer.listen({port: PORT}, () => console.log(`
+Hola mundo desde api grapql http://localhost:${PORT}/graphql`));
